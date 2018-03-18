@@ -1,0 +1,37 @@
+body { /* Set the font style, background image, and centers the web page. */
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: black;
+	font-family: Verdana;
+	background-image: url("snow.jpg");
+}
+form { /* Styling for the form */
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10px;
+	text-align: left;
+}
+.textboxes{ /* Styling for all the text boxes in the form */
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: left;
+}
+.buttons { /* setting margin for the submit and reset buttons */
+	margin-top: 30px;
+}
+.header { /* Styling for the header div that has the title and information */
+	background-color: skyblue;
+	border:5px solid black;
+	padding-bottom: 5px;
+}
+.main { /* Styling for the main div that has the form */
+	height: 350px;
+	background-color: skyblue;
+	border:5px solid black;
+	padding-top:10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Form</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="styles.css"> <!-- Links the CSS file for styling. -->
+	</head>
+	<body>
+		<div class="header"> <!-- Div that hold the title and information. -->
+			<h2>Form</h2>
+		</div>
+		<div class="main"> <!-- Div that holds the text boxes and buttons. -->
+		<form action="validate.php" method="POST"> <!-- Directs to the PHP page for validation. -->
+			<p>Enter your information below.</p>
+			<div class="textboxes">
+				<input type="text" name="name"> Name <!-- Box for the user's name. -->
+			</div>
+			<div class="textboxes">
+				<input type="text" name="address"> Address <!-- Box for the user's address. -->
+			</div>
+			<div class="textboxes">
+				<input type="text" name="age"> Age <!-- Box for the user's age. -->
+			</div>
+			<div class="textboxes">
+				<input type="text" name="field"> Field <!-- Box for the user's field. -->
+			</div>
+			<div class="textboxes">
+				<input type="password" name="password"> Password <!-- Box for the user's password. -->
+			</div>
+			<input type="radio" name="task" value="a"/> Add <!-- Radio button for adding the information to the database. -->
+			<input type="radio" name="task" value="r"/> Retrieve <!-- Radio button to retrieve data from the database. -->
+			<div class="buttons">
+				<input type="submit" name="submit" value="Submit"> <!-- Button for form submission. -->
+				<input type="reset" name="submit" value="Reset"> <!-- Button to reset the form. -->
+			</div>
+		</form>
+		</div>
+	</body>
+</html>
